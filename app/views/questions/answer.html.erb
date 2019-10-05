@@ -1,0 +1,17 @@
+
+<div class="container justify-content-center text-alert">
+  <div class="p-3">
+    <h1>The Stupid Coach</h1>
+    <h2 class="text-success">Ask your coach a question:</h2>
+    <h3><%= @question %></h3>
+    <h4 class="p-5">- You</h4>
+  </div>
+
+  <div>
+    <h2 class="text-success"><%= @answer %></h2>
+    <h4 class="p-5">- Your Coach</h4>
+  </div>
+
+  <div class="list-group-item-active"><%= link_to("Ask a New Question", "./ask") %></div>
+
+</div>
